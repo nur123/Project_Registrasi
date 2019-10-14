@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ini adalah menu utama login</description>
+   <name>Registration - Login</name>
+   <tag>ini adalah menu utama login</tag>
+   <comment></comment>
+   <testCaseGuid>a378e5ba-d839-4ad3-b0a4-476a7b2bac14</testCaseGuid>
+   <variable>
+      <defaultValue>'Sign in to your account'</defaultValue>
+      <description></description>
+      <id>05214491-6a23-4a65-951f-b6ee1091c073</id>
+      <masked>false</masked>
+      <name>label_sign</name>
+   </variable>
+   <variable>
+      <defaultValue>'Enter your organization\'s name.'</defaultValue>
+      <description></description>
+      <id>3406269a-7ec5-4906-8fb0-319c1339ca60</id>
+      <masked>false</masked>
+      <name>label_organization_name</name>
+   </variable>
+</TestCaseEntity>

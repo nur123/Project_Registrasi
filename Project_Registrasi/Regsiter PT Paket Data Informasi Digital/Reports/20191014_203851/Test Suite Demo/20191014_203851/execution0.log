@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-14T20:38:54</date>
+  <millis>1571060334357</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Test Suite Demo</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Test Suite Demo</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Test Suite Demo</property>
+</record>
+<record>
+  <date>2019-10-14T20:38:54</date>
+  <millis>1571060334393</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = MBIZ - DESKTOP-3K7S1VL</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">MBIZ - DESKTOP-3K7S1VL</property>
+</record>
+<record>
+  <date>2019-10-14T20:38:54</date>
+  <millis>1571060334395</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-10-14T20:38:54</date>
+  <millis>1571060334395</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.43.160</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.43.160</property>
+</record>
+<record>
+  <date>2019-10-14T20:38:54</date>
+  <millis>1571060334395</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2019-10-14T20:38:54</date>
+  <millis>1571060334931</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Registration</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Registration</property>
+  <property name="description">ini adalah menu utama Registration</property>
+  <property name="id">Test Cases/Registration</property>
+  <property name="source">H:\\Project_Registrasi\\Regsiter PT Paket Data Informasi Digital\\Test Cases\\Registration.tc</property>
+  <property name="tag">ini adalah menu utama Registration</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-14T20:38:55</date>
+  <millis>1571060335148</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start setup action : setupTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="isIgnoredIfFailed">false</property>
+</record>
+<record>
+  <date>2019-10-14T20:38:55</date>
+  <millis>1571060335594</millis>
+  <sequence>8</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-14T20:38:55</date>
+  <millis>1571060335638</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-14T20:38:55</date>
+  <millis>1571060335845</millis>
+  <sequence>11</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Could not find which method openBrowser() to invoke from this list:\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String)\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">org.codehaus.groovy.runtime.metaclass.MethodSelectionException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.runtime.metaclass.MethodSelectionException: Could not find which method openBrowser() to invoke from this list:\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String)\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)\r\n\tat Test_Suite_Demo.setupTestCase(Test%20Suite%20Demo.groovy:52)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.runMethod(TestSuiteExecutor.java:215)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.lambda$0(TestSuiteExecutor.java:194)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.invokeTestSuiteMethod(TestSuiteExecutor.java:193)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.invokeEachTestCaseMethod(TestSuiteExecutor.java:177)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.invokeTestSuiteMethod(TestCaseExecutor.java:269)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1571060331204.run(TempTestSuite1571060331204.groovy:35)\r\n</property>
+  <property name="failed.exception.message">Could not find which method openBrowser() to invoke from this list:\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String)\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)</property>
+</record>
+<record>
+  <date>2019-10-14T20:38:55</date>
+  <millis>1571060335851</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : setupTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-14T20:38:55</date>
+  <millis>1571060335856</millis>
+  <sequence>15</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>org.codehaus.groovy.runtime.metaclass.MethodSelectionException: Could not find which method openBrowser() to invoke from this list:\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String)\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)\r\n\tat Test_Suite_Demo.setupTestCase(Test%20Suite%20Demo.groovy:52)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.runMethod(TestSuiteExecutor.java:215)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.lambda$0(TestSuiteExecutor.java:194)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.invokeTestSuiteMethod(TestSuiteExecutor.java:193)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.invokeEachTestCaseMethod(TestSuiteExecutor.java:177)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.invokeTestSuiteMethod(TestCaseExecutor.java:269)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1571060331204.run(TempTestSuite1571060331204.groovy:35)\r\n</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">org.codehaus.groovy.runtime.metaclass.MethodSelectionException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.runtime.metaclass.MethodSelectionException: Could not find which method openBrowser() to invoke from this list:\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String)\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)\r\n\tat Test_Suite_Demo.setupTestCase(Test%20Suite%20Demo.groovy:52)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.runMethod(TestSuiteExecutor.java:215)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.lambda$0(TestSuiteExecutor.java:194)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.invokeTestSuiteMethod(TestSuiteExecutor.java:193)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.invokeEachTestCaseMethod(TestSuiteExecutor.java:177)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.invokeTestSuiteMethod(TestCaseExecutor.java:269)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1571060331204.run(TempTestSuite1571060331204.groovy:35)\r\n</property>
+  <property name="failed.exception.message">Could not find which method openBrowser() to invoke from this list:\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String)\n  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)</property>
+</record>
+<record>
+  <date>2019-10-14T20:38:55</date>
+  <millis>1571060335880</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Registration</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-14T20:38:56</date>
+  <millis>1571060336058</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Test Suite Demo</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
